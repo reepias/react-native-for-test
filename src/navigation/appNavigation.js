@@ -5,7 +5,7 @@ import createAnimatedSwitchNavigator from 'react-navigation-animated-switch'
 import {Transition} from 'react-native-reanimated'
 
 import Routes from './routes'
-import {TestScreen} from '../screens'
+import {TestScreen, RestaurantScreen} from '../screens'
 
 const Root = {screen: TestScreen}
 
@@ -36,6 +36,10 @@ const ModalNav = createStackNavigator(
     Main: {
       screen: PrimaryNav,
       path: 'app',
+    },
+    RestaurantScreen: {
+      screen: RestaurantScreen,
+      path: 'restaurant',
     },
   },
   {
