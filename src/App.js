@@ -9,7 +9,7 @@ import PrimaryNav from './navigation/appNavigation'
 export default () => {
   return (
     <Fragment>
-      <StatusBar translucent backgroundColor={'rgba(0,0,0,0.2)'} />
+      <StatusBar backgroundColor={'rgba(0,0,0,0.2)'} />
       <ThemeConsumer />
     </Fragment>
   )
