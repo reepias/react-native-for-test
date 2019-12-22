@@ -10,8 +10,6 @@ import {useNavigation} from 'react-navigation-hooks'
 
 import {HeaderComponent, FooterTabComponent} from '../components'
 
-
-
 export default () => {
     const {navigate} = useNavigation()
 
